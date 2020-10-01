@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.SampleBorder"
+            prefHeight="400.0" prefWidth="600.0">
+    <top>
+<Label text="Natalia Oveckova" BorderPane.alignment="CENTER"></Label>
+
+    </top>
+
+    <center>
+        <Button text="tlacidlo"></Button>
+    </center>
+    <bottom>
+        <HBox
+                spacing="10" alignment="BOTTOM_RIGHT">
+        <padding>
+            <Insets right="20" left="20" top="20" bottom="20" ></Insets>
+        </padding>
+
+
+        <Button text="Ok" prefWidth="90"/>
+        <Button text="Cancel" prefWidth="90"/>
+        <Button text="Help" prefWidth="90"/>
+
+    </HBox>
+    </bottom>
+    <right>
+        <Button text="tlacidlo"></Button>
+    </right>
+    <left>
+        <Button text="tlacidlo"></Button>
+    </left>
+
+</BorderPane>
